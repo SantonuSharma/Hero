@@ -1,0 +1,95 @@
+section.contact {
+    padding: 0;
+}
+
+section.contact .card-wrapper .card{
+    text-align: center;
+}
+
+section.contact .card-wrapper .card img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 1rem;
+}
+
+section.contact .card-wrapper .card h2{
+    font-weight: 400;
+    margin-bottom: 0.3rem;
+}
+
+section.contact .card-wrapper .card h6{
+    font-size: 0.8rem;
+    color: var(--ternary);
+    font-weight: 400;
+    margin-bottom: 4rem;
+}
+
+section.contact .input-wrap{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+section.contact .input-wrap-2{
+    display: flex;
+    flex-direction: column;
+}
+
+section.contact .input-wrap-2 input{
+    margin-bottom: 2rem;
+}
+
+section.contact .input-wrap-2 textarea{
+    padding: 0.5rem;
+    border: 1px solid var(--light);
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+section.contact input{
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1.5px solid var(--ternary);
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+section.contact .input-wrap .placeholder, section.contact .input-wrap-2 .placeholder{
+    display: inline;
+}
+
+section.contact .input-wrap-2 textarea:focus,section.contact input:focus{
+    outline: none;
+}
+
+section.contact .btn-wrapper{
+    text-align: center;
+    margin: 2rem;
+}
+
+/* form animation starts here */
+/* 
+section.contact form{
+    position: relative;
+}
+
+section.contact form .placeholder-1{
+    position: absolute;
+    top: 0;
+    left: 1%;
+    color: var(--ternary);
+}
+
+section.contact form .placeholder-2{
+    position: absolute;
+    top: 0;
+    right: 43%;
+    color: var(--ternary);
+}
+
+section.contact input:focus .placeholder-1{
+    top: -5%;
+} */
+

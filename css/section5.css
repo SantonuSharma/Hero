@@ -1,0 +1,54 @@
+section.work{
+    background: var(--light);
+}
+
+section.work .card-wrapper{
+    grid-gap: 2rem;
+}
+
+section.work .card-wrapper .card{
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+    transition: all 2s ease;
+}
+
+section.work .card-wrapper .card img{
+    transition: all 2s ease;
+    height: 100%;
+    width: 100%;
+}
+
+section.work .card-wrapper .card:hover img{
+    transform: scale(1.3);
+}
+
+section.work .card-wrapper .card .overlay{
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: rgba(61, 207, 211, 0.9);
+    flex-direction: column;
+    opacity: 0;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+section.work .card-wrapper .card .overlay span{
+    color: var(--white);
+    font-weight: 700;
+}
+
+section.work .card-wrapper .card .overlay a{
+    text-decoration: none;
+    color: var(--dark);
+}
+
+section.work .card-wrapper .card:hover .overlay{
+    opacity: 1;
+}

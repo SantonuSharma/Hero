@@ -1,0 +1,24 @@
+footer{
+    background: var(--dark);
+    text-align: center;
+    padding: 5rem 0;
+}
+
+footer .footer-logo{
+    width: 150px;
+}
+
+
+footer .socials img{
+    width: 15px;
+    height: 15px;
+}
+
+footer .socials{
+    margin-right: -1rem;
+    margin-bottom: 2rem;
+}
+
+footer .copyright{
+    color: var(--ternary);
+}
